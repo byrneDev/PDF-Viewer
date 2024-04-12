@@ -38,3 +38,15 @@ Ensure you have the following prerequisites installed:
 </script>
 ```
 
+### Library Functions
+
+```html
+<div id="pdf-controls">
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+    <button id="zoomIn">Zoom In</button>
+    <button id="zoomOut">Zoom Out</button>
+</div>
+<div id="pdf-container"></div>
+```
+
