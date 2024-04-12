@@ -49,4 +49,13 @@ Ensure you have the following prerequisites installed:
 </div>
 <div id="pdf-container"></div>
 ```
+### Additional JS
 
+Bind event listeners to your buttons to call your library functions. You should do this after your library has been initialized and the PDF is loaded.
+
+```js
+document.getElementById('next').addEventListener('click', () => PDFEmbedJS.nextPage());
+document.getElementById('prev').addEventListener('click', () => PDFEmbedJS.prevPage());
+document.getElementById('zoomIn').addEventListener('click', () => PDFEmbedJS.zoomIn());
+document.getElementById('zoomOut').addEventListener('click', () => PDFEmbedJS.zoomOut());
+```
