@@ -26,3 +26,15 @@ Ensure you have the following prerequisites installed:
 
 ```html
 <script src="path/to/PDFEmbedJS.js"></script>
+
+```
+### Add to HTML
+
+```html
+<div id="pdf-container"></div>
+
+<script>
+    PDFEmbedJS.loadPDF('pdf-container', 'path/to/your/pdf.pdf');
+</script>
+```
+
